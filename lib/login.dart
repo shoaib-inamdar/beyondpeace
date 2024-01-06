@@ -13,7 +13,6 @@ class Login extends StatelessWidget {
       child: SafeArea(
         child: Center(
           child: Column(
-            // mainAxisAlignment: MainAxisAlignment.center,
             children: [
               SizedBox(
                 height: 60,
