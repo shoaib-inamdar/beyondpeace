@@ -1,5 +1,6 @@
 // import 'dart:ui';
 
+import 'package:beyondpeace/utils/routes.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
@@ -69,7 +70,9 @@ class Login extends StatelessWidget {
                             style: ElevatedButton.styleFrom(
                                 backgroundColor: Colors.black,
                                 foregroundColor: Colors.white),
-                            onPressed: () {},
+                            onPressed: () {
+                              Navigator.pushNamed(context, Myroutes.homeroute);
+                            },
                             child: const Text("login")),
                         Row(
                           children: [
