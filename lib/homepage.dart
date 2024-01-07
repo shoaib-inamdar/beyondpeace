@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 
+// ignore: must_be_immutable
 class Homepage extends StatelessWidget {
-   Homepage({super.key});
+  Homepage({super.key});
   var arrContents = ['abc', 'xyz', 'pqr', 'mnk', 'stv'];
   @override
   Widget build(BuildContext context) {
@@ -53,7 +54,7 @@ class Homepage extends StatelessWidget {
                       alignment: Alignment.center,
                       decoration: BoxDecoration(
                         borderRadius:
-                        const BorderRadius.all(Radius.circular(20)),
+                            const BorderRadius.all(Radius.circular(20)),
                         color: Colors.redAccent,
                       ),
                       child: Text(
@@ -101,11 +102,14 @@ class Homepage extends StatelessWidget {
                         borderRadius: BorderRadius.all(Radius.circular(20)),
                         color: Colors.orangeAccent,
                       ),
-                      child: Text('Special Events',
+                      child: Text(
+                        'Special Events',
                         style: TextStyle(
                             fontWeight: FontWeight.bold,
                             fontSize: 24,
-                            color: Colors.white),textAlign: TextAlign.center,),
+                            color: Colors.white),
+                        textAlign: TextAlign.center,
+                      ),
                     ),
                   ),
                 ],
@@ -134,7 +138,7 @@ class Homepage extends StatelessWidget {
                       alignment: Alignment.center,
                       decoration: BoxDecoration(
                         borderRadius:
-                        const BorderRadius.all(Radius.circular(20)),
+                            const BorderRadius.all(Radius.circular(20)),
                         color: Colors.green,
                       ),
                       child: Text(
@@ -157,7 +161,7 @@ class Homepage extends StatelessWidget {
                 scrollDirection: Axis.horizontal,
                 children: [
                   Padding(
-                    padding: const EdgeInsets.only(top: 10, left: 8,bottom: 8),
+                    padding: const EdgeInsets.only(top: 10, left: 8, bottom: 8),
                     child: Container(
                       width: 195,
                       alignment: Alignment.center,
@@ -174,7 +178,8 @@ class Homepage extends StatelessWidget {
                     ),
                   ),
                   Padding(
-                    padding: const EdgeInsets.only(top: 10, left: 8, right: 8,bottom: 8),
+                    padding: const EdgeInsets.only(
+                        top: 10, left: 8, right: 8, bottom: 8),
                     child: Container(
                       width: 195,
                       alignment: Alignment.center,
@@ -182,11 +187,14 @@ class Homepage extends StatelessWidget {
                         borderRadius: BorderRadius.all(Radius.circular(20)),
                         color: Colors.indigoAccent,
                       ),
-                      child: Text('Record of Medical Reports',
+                      child: Text(
+                        'Record of Medical Reports',
                         style: TextStyle(
                             fontWeight: FontWeight.bold,
                             fontSize: 24,
-                            color: Colors.white),textAlign: TextAlign.center,),
+                            color: Colors.white),
+                        textAlign: TextAlign.center,
+                      ),
                     ),
                   ),
                 ],
