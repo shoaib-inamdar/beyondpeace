@@ -1,6 +1,7 @@
 // import 'package:beyondpeace/homepage.dart';
-import 'package:beyondpeace/homepage.dart';
-import 'package:beyondpeace/login.dart';
+import 'package:beyondpeace/pages/entrypage.dart';
+import 'package:beyondpeace/pages/homepage.dart';
+import 'package:beyondpeace/pages/login.dart';
 import 'package:beyondpeace/utils/routes.dart';
 import 'package:flutter/material.dart';
 // import 'package:beyondpeace/utils/routes.dart';
@@ -23,11 +24,11 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       routes: {
-        // '/': (context) => Login(),
+        // '/': (context) => Entrypage(),
         Myroutes.homeroute: (context) => Homepage(),
         Myroutes.loginroute: (context) => Login()
       },
-      home: const Login(),
+      home: const Entrypage(),
     );
   }
 }

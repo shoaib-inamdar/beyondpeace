@@ -16,7 +16,7 @@ class Login extends StatelessWidget {
           child: Column(
             children: [
               SizedBox(
-                height: 60,
+                height: 10,
               ),
               Image.asset(
                 "assets/images/brain.jpg",
