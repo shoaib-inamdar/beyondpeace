@@ -1,6 +1,7 @@
 // import 'package:beyondpeace/homepage.dart';
+import 'package:beyondpeace/pages/doctor.dart';
 import 'package:beyondpeace/pages/entrypage.dart';
-import 'package:beyondpeace/pages/homepage.dart';
+import 'package:beyondpeace/pages/mainpage.dart';
 import 'package:beyondpeace/pages/login.dart';
 import 'package:beyondpeace/pages/mentalexercise.dart';
 import 'package:beyondpeace/pages/music.dart';
@@ -27,10 +28,11 @@ class MyApp extends StatelessWidget {
       ),
       routes: {
         // '/': (context) => Entrypage(),
-        Myroutes.homeroute: (context) => Homepage(),
+        Myroutes.mainroute: (context) => Mainpage(),
         Myroutes.loginroute: (context) => Login(),
         Myroutes.mentalexerciseroute: (context) => Mentalexercise(),
-        Myroutes.mentalmusicroute: (context) => Music()
+        Myroutes.mentalmusicroute: (context) => Music(),
+        Myroutes.doctorcommunicateroute: (context) => Doctorcall()
       },
       home: const Entrypage(),
     );

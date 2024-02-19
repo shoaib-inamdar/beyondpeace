@@ -71,7 +71,7 @@ class Login extends StatelessWidget {
                                 backgroundColor: Colors.black,
                                 foregroundColor: Colors.white),
                             onPressed: () {
-                              Navigator.pushNamed(context, Myroutes.homeroute);
+                              Navigator.pushNamed(context, Myroutes.mainroute);
                             },
                             child: const Text("login")),
                         Row(
