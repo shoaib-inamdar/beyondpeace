@@ -13,6 +13,9 @@ class Homepage extends StatelessWidget {
     return Scaffold(
       body: Container(
         decoration: BoxDecoration(
+          image: new DecorationImage(
+              image: AssetImage('assets/images/background.jpg'),
+              fit: BoxFit.cover),
           color: Color.fromARGB(255, 255, 255, 255),
 
           // image:
