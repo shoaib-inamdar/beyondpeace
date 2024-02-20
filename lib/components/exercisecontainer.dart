@@ -1,7 +1,8 @@
-import 'package:beyondpeace/utils/routes.dart';
+// import 'package:beyondpeace/utils/routes.dart';
 // import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
+// ignore: must_be_immutable
 class Exercisecontainer extends StatelessWidget {
   var image;
 
