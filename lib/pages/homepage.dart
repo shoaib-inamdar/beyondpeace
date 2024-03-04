@@ -1,6 +1,7 @@
 import 'dart:ui';
 
 import 'package:beyondpeace/components/exercisecontainer.dart';
+import 'package:beyondpeace/components/heading.dart';
 import 'package:beyondpeace/components/musiccontainer.dart';
 import 'package:beyondpeace/utils/routes.dart';
 import 'package:flutter/material.dart';
@@ -24,16 +25,7 @@ class Homepage extends StatelessWidget {
         child: ListView(
           // padding: EdgeInsets.all(30),
           children: [
-            Container(
-              alignment: Alignment.center,
-              height: 170,
-              child: Text('BeyondPeace',
-                  style: TextStyle(fontSize: 40, fontWeight: FontWeight.w700)),
-              decoration: BoxDecoration(
-                  color: Color(0xFFC5C6CB),
-                  borderRadius:
-                      BorderRadius.only(bottomLeft: Radius.circular(100))),
-            ),
+            Heading(headtext: "BeyondPeace"),
             Padding(
               padding: EdgeInsets.all(20.0),
               child: Container(

@@ -1,18 +1,11 @@
-// import 'package:beyondpeace/components/bottomNavBar.dart';
+import 'package:beyondpeace/components/drawerpage.dart';
 import 'package:curved_navigation_bar/curved_navigation_bar.dart';
-// import 'dart:ui';
-
-// import 'package:beyondpeace/components/bottomnav.dart';
-// import 'package:beyondpeace/components/exercisecontainer.dart';
-// import 'package:beyondpeace/components/musiccontainer.dart';
 import 'package:beyondpeace/pages/homepage.dart';
 import 'package:beyondpeace/pages/login.dart';
 import 'package:beyondpeace/pages/mentalexercise.dart';
 import 'package:beyondpeace/pages/music.dart';
-// import 'package:curved_navigation_bar/curved_navigation_bar.dart';
-// import 'package:beyondpeace/utils/routes.dart';
-// import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_zoom_drawer/flutter_zoom_drawer.dart';
 
 // ignore: must_be_immutable
 class Mainpage extends StatefulWidget {

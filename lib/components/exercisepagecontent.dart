@@ -15,7 +15,7 @@ class Exercisecontent extends StatelessWidget {
       margin: EdgeInsets.only(bottom: 10, left: 10, right: 10),
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(20),
-        color: Colors.greenAccent,
+        color: Colors.white,
       ),
     );
   }
