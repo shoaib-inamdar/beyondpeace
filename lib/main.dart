@@ -5,6 +5,7 @@ import 'package:beyondpeace/pages/mainpage.dart';
 import 'package:beyondpeace/pages/login.dart';
 import 'package:beyondpeace/pages/mentalexercise.dart';
 import 'package:beyondpeace/pages/music.dart';
+// import 'package:beyondpeace/pages/musicplayer.dart';
 import 'package:beyondpeace/utils/routes.dart';
 import 'package:flutter/material.dart';
 // import 'package:beyondpeace/utils/routes.dart';
@@ -32,7 +33,8 @@ class MyApp extends StatelessWidget {
         Myroutes.loginroute: (context) => Login(),
         Myroutes.mentalexerciseroute: (context) => Mentalexercise(),
         Myroutes.mentalmusicroute: (context) => Music(),
-        Myroutes.doctorcommunicateroute: (context) => Doctorcall()
+        Myroutes.doctorcommunicateroute: (context) => Doctorcall(),
+        // Myroutes.musicroute: (context) => Musicplayer()
       },
       home: const Entrypage(),
     );

@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "197506292945",
+    "project_id": "beyondpeace-db1bf",
+    "storage_bucket": "beyondpeace-db1bf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:197506292945:android:9936d0ec3de058c6b0f9f0",
+        "android_client_info": {
+          "package_name": "com.example.beyondpeace"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "197506292945-3gb7rhb35gh6c31fh8u5jkjt65ejvniv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPL6EwnrVgeqfjGnTUXNHO3ZCqy3T5SQA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "197506292945-3gb7rhb35gh6c31fh8u5jkjt65ejvniv.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "197506292945-19sgerh703vgupgn2fjg9qovdufodj1c.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.beyondpeace"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

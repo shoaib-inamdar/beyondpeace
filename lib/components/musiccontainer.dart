@@ -14,8 +14,9 @@ class Musiccontainer extends StatelessWidget {
         margin: EdgeInsets.all(3),
         height: 180,
         alignment: Alignment.center,
-        decoration:
-            BoxDecoration(borderRadius: BorderRadius.all(Radius.circular(20))),
+        decoration: BoxDecoration(
+            border: Border.all(color: Colors.white),
+            borderRadius: BorderRadius.all(Radius.circular(20))),
         child: Stack(
           alignment: Alignment.center,
           children: [

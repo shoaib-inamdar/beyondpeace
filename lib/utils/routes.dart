@@ -4,4 +4,5 @@ class Myroutes {
   static String mentalexerciseroute = '/homepage/mentalexercise';
   static String mentalmusicroute = '/homepage/music';
   static String doctorcommunicateroute = '/homepage/doctor';
+  static String musicroute = '/homepage/doctor';
 }
